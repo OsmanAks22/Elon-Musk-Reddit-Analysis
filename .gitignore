@@ -1,0 +1,16 @@
+# Environments and secrets
+.venv/
+venv/
+.env
+praw.ini
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Collected data (contains Reddit usernames) and regenerated figures
+*.csv
+/fig*.png
+/wordcloud.png
+
+.DS_Store
